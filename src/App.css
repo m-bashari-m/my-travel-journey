@@ -1,0 +1,82 @@
+:root{
+    --light-red: #F55A5A;
+    --black-shadow: rgba(0, 0, 0, .2);
+}
+
+p, a{
+    font-size: .8rem;
+}
+
+.navbar{
+    background-color: var(--light-red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 1px 30px var(--black-shadow);
+    padding: 10px;
+}
+
+.navbar p{
+    font-size: 1.2rem;
+}
+
+.navbar--logo{
+    margin-right: 20px;
+}
+
+.travel{
+  box-shadow: 0 0 10px var(--black-shadow);
+  margin: 20px auto;
+  width:90%;
+  border-radius: 9px;
+  max-width: 600px;
+  display: flex;
+  overflow: hidden;
+}
+
+.travel--image{
+  flex:30%;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.travel--details{
+    flex: 70%;
+    padding: 20px;
+}
+
+.travel--details *{
+    margin-bottom: 10px;
+}
+
+.travel--location{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.travel--location-country{
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-right: 10px;
+    font-size: .9rem;
+}
+
+.travel--location-image{
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.travel--location-maps{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, .5);
+}
+
+.travel--date{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
