@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-travel-journey/static/css/main.b247bebf.css",
+    "main.js": "/my-travel-journey/static/js/main.44ffe2f7.js",
+    "static/media/location-svgrepo-com.svg": "/my-travel-journey/static/media/location-svgrepo-com.733646358ed1bea5f7e8c6212468e69b.svg",
+    "static/media/icons8-google-earth-30.svg": "/my-travel-journey/static/media/icons8-google-earth-30.c72ef5770fec9c2f5e69effc7b96c5a8.svg",
+    "index.html": "/my-travel-journey/index.html",
+    "main.b247bebf.css.map": "/my-travel-journey/static/css/main.b247bebf.css.map",
+    "main.44ffe2f7.js.map": "/my-travel-journey/static/js/main.44ffe2f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b247bebf.css",
+    "static/js/main.44ffe2f7.js"
+  ]
+}
